@@ -1,0 +1,51 @@
+baseURL = '//defloor.info/'
+languageCode = 'en-us'
+title = 'Evan Defloor'
+theme = 'nightfall'
+
+[menu]
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "/about"
+  [[menu.header]]
+    name = "blog"
+    weight = 3
+    url = "posts"
+  [[menu.header]]
+    name = "projects"
+    weight = 4
+    url = "pages/projects"
+  [[menu.header]]
+    name = "lab"
+    weight = 5
+    url = "pages/lab"
+  [[menu.header]]
+    name = "automations"
+    weight = 6
+    url = "pages/automations"
+
+[params]
+  author = "Evan Defloor"
+  user = "user"
+  hostname = "defloor.info"
+  subtitle = "THE UNIVERSE!!! IT SINGS TO ME!!!"
+
+  readingTime = true  # Show reading time on post page
+  published = true  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/floor3d"
+
+[[params.social]]
+key = 1
+name = "linkedin"
+url = "https://www.linkedin.com/in/edefloor/"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:evan@ethicalhack.ing" 
+

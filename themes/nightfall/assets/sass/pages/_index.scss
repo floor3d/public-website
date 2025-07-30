@@ -1,0 +1,17 @@
+.indexWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.indexHeader {
+    font-size: 3em;
+    margin-bottom: 0.25em;
+}
+
+.indexSubHeader {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    color: #807e7e;
+}

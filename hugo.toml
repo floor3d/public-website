@@ -5,24 +5,20 @@ theme = 'nightfall'
 
 [menu]
   [[menu.header]]
-    name = "about"
-    weight = 1
-    url = "/about"
-  [[menu.header]]
     name = "blog"
-    weight = 3
+    weight = 1
     url = "posts"
   [[menu.header]]
     name = "projects"
-    weight = 4
+    weight = 2
     url = "pages/projects"
   [[menu.header]]
     name = "lab"
-    weight = 5
+    weight = 3
     url = "pages/lab"
   [[menu.header]]
     name = "automations"
-    weight = 6
+    weight = 4
     url = "pages/automations"
 
 [params]

@@ -17,9 +17,6 @@ Diffie Hellman middleman simulation, written in Rust. Simulates a DH handshake, 
 ### Monstrous Scylla
 An informal testing suite to measure the speed of ScyllaDB based on a predetermined use case.
 
-### CRAFT
-RAFT in C!
-
 ## Finished
 ### FTP Client
 Simple FTP client written in Python, for my Networks class. Runs on the command line, and supports the following six operations: directory listing, making directories, file deletion, directory deletion, copying files to and from the FTP server, and moving files to and from the FTP server. Uses two sockets, one for the Control channel and one for the Data channel.
@@ -50,17 +47,19 @@ A trivial implementation of grep written in Rust as I learned the language.
 Secure Messenger Client and Server written in Python: Written as a final project for my Network Security class, this program incorporates SRP, Diffie Hellman, mutual authentication, etc. It guarantees integrity, endpoints hiding, protection against replay attacks and impersonation, and other attacks.
 
 ### CTF Challenges
-A collection of CTF challenges of all types that I have made for my club at school :)
+A collection of CTF challenges of all types that I have made for my club in college.
 
 ### Ghost in the sHELL
 The Visual C *Magnum Opus*. A full-featured C2 framework and modular malware implant for Windows. I was part of a team, and I helped make functionality such as thread hijacking process injection, in-memory DLL loading, client frontend, chrome password stealer, hotkey persistence, TLS encrypted channels via certbot, string obfuscation, and more capabilities :)
 
 ### One Piece Spoiler crawler
-Written in Bash and Python: an oversimplified spoiler service which crawls Reddit to carve out and email me the latest One Piece spoilers when they come out. Also tells me when the new chapter releases!
+Written in Python: an oversimplified spoiler service which uses the PRAW library to interact with Reddit's free-tier API and and email me the latest One Piece spoilers when they come out. Also tells me when the new chapter releases!
 
 ### Find D. Titlescreen
 A machine learning model which scans through a One Piece episode and returns the timestamp where the titlescreen starts. Written with PyTorch and trained on my GPU at home (AMD 7900 GRE).
 
-
 ### Strings They ELF
 Linux ARM malware written in C, targeting Linux ARM machines like Raspberry Pi's. Has general usage functionality (host awareness, process injection, peristence, file IO, etc.), a special feature (checkins over DNS over HTTPS), and special environment targeting (targets a fake backup machine and reads special messages on the filesystem via a reflective Shared Object payload and Ptrace injection). Compared to *Ghost in the sHELL*, this one was even more difficult and interesting!
+
+### MapReduce Lite
+A lite version of MapReduce (i.e. main functionality, but without extra niceties like Counters, deterministic crash detection, etc.) which runs on a single machine. Built for Lab 1 of a self-directed following of [MIT 6.824](https://pdos.csail.mit.edu/6.824/schedule.html).

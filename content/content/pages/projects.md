@@ -38,7 +38,7 @@ maintaining consensus among the replicas, even through failure of nodes and othe
 GUI Image editor written in Java. Can apply filters, reverse, blur, etc. 
 
 ### cLisp
-U lisp language made in C. I used `buildyourownlisp(dot)com` to make this project. A cool way to learn about programming languages :)
+A lisp language made in C. I used `buildyourownlisp(dot)com` to make this project. A cool way to learn about programming languages :)
 
 ### Grab
 A trivial implementation of grep written in Rust as I learned the language.
@@ -63,3 +63,9 @@ Linux ARM malware written in C, targeting Linux ARM machines like Raspberry Pi's
 
 ### MapReduce Lite
 A lite version of MapReduce (i.e. main functionality, but without extra niceties like Counters, deterministic crash detection, etc.) which runs on a single machine. Built for Lab 1 of a self-directed following of [MIT 6.824](https://pdos.csail.mit.edu/6.824/schedule.html).
+
+### RAFT Relapse
+Another RAFT implementation in Go, this time for my self-directed following of the MIT 6.824 class. This one is a good amount better than my first try.
+
+### Twopcrab
+A crappy two-phase-commit atomic commit implementation in Rust. I didn't really care all too much about the protocol's implementation -- this was mainly about figuring out what async concurrent Rust was like. At least, that's what I tell myself so I can sleep at night.
